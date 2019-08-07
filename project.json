@@ -1,0 +1,19 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaCartFeedZboziCzPlugin",
+	"extensionName": "Phoca Cart Feed Zboží.cz Plugin",
+	"projectInitials" : "PC",				  
+	"description": "Phoca Cart Feed - Zboží.cz plugin - XML feed plugin for Phoca Cart component. Extends XML Feed with new Zboží.cz elements.",
+	"projectUrl": "https://www.phoca.cz/phocacart-extensions/2-plugins/45-feed-zbozi-cz-plugin",
+	"projectDocumentationUrl": "https://www.phoca.cz/documentation/category/115-phoca-cart",
+	"projectMainComponent": "Phoca Cart",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/project/phocacart-joomla-ecommerce",
+	"projectDemo" : {
+		"Joomla! - Phoca Cart Demo": "https://www.phoca.cz/phocacartdemo/",
+		"Joomla! - Phoca Cart - Phoca Premiere Template Demo": "https://www.phoca.cz/phocacartdemo/premiere/"
+	},
+	"projectColor": "#129ed9"
+}

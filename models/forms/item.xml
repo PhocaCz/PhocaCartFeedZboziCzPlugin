@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+	<field name="EXTRA_MESSAGE{1}" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_1_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_1_DESC"/>
+
+		<field name="FREE_GIFT_TEXT" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_FREE_GIFT_TEXT_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_FREE_GIFT_TEXT_DESC"/>
+		
+		<field name="EXTRA_MESSAGE{2}" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_2_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_2_DESC"/>
+
+
+
+
+	</fieldset>
+</form>
