@@ -1,12 +1,12 @@
 <updates>
 	<update>
-		<name><![CDATA[ Phoca Cart Feed Zbo?�.cz Plugin ]]></name>
-		<description><![CDATA[ Phoca Cart Feed - Zbo?�.cz plugin - XML feed plugin for Phoca Cart component. Extends XML Feed with new Zbo?�.cz elements. ]]></description>
+		<name><![CDATA[ Phoca Cart Feed Zboží.cz Plugin ]]></name>
+		<description><![CDATA[ Phoca Cart Feed - Zboží.cz plugin - XML feed plugin for Phoca Cart component. Extends XML Feed with new Zboží.cz elements. ]]></description>
 		<element>zbozi_cz</element>
 		<folder>pcf</folder>
 		<type>plugin</type>
 		<version>3.3.1</version>
-		<infourl title="Phoca Cart Feed Zbo?�.cz Plugin 3.3.1">https://www.phoca.cz/</infourl>
+		<infourl title="Phoca Cart Feed Zboží.cz Plugin 3.3.1">https://www.phoca.cz/</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartFeedZboziCzPlugin/releases/download/3.3.1/plg_pcf_zbozi_cz_v3.3.1.zip</downloadurl>
 		</downloads>
