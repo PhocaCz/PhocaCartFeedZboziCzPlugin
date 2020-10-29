@@ -2,19 +2,19 @@
 
 
 
-![Phoca Cart Feed Zbo?í.cz Plugin](https://github.com/PhocaCz/PhocaCartFeedZboziCzPlugin/blob/master/zbozi_cz.png)
+![Phoca Cart Feed Zbozi.cz Plugin](https://github.com/PhocaCz/PhocaCartFeedZboziCzPlugin/blob/master/zbozi_cz.png)
 
-# Phoca Cart Feed Zbo?í.cz Plugin
+# Phoca Cart Feed Zbozi.cz Plugin
 
 
 
-Phoca Cart Feed - Zbo?í.cz plugin - XML feed plugin for Phoca Cart component. Extends XML Feed with new Zbo?í.cz elements.
+Phoca Cart Feed - Zbozi.cz plugin - XML feed plugin for Phoca Cart component. Extends XML Feed with new Zbozi.cz elements.
 
 
 
 ## Project page
 
-[Phoca Cart Feed Zbo?í.cz Plugin](https://www.phoca.cz/phocacart-extensions/2-plugins/45-feed-zbozi-cz-plugin)
+[Phoca Cart Feed Zbozi.cz Plugin](https://www.phoca.cz/phocacart-extensions/2-plugins/45-feed-zbozi-cz-plugin)
 
 [Phoca Cart Info Page](https://www.phoca.cz/project/phocacart-joomla-ecommerce)
 
@@ -23,6 +23,8 @@ Phoca Cart Feed - Zbo?í.cz plugin - XML feed plugin for Phoca Cart component. Ex
 ## Documentation
 
 [Documentation](https://www.phoca.cz/documentation/category/115-phoca-cart)
+
+
 
 
 
@@ -54,7 +56,7 @@ Phoca Cart Feed - Zbo?í.cz plugin - XML feed plugin for Phoca Cart component. Ex
 
 ## Version
 
-3.3.1
+3.5.4
 
 
 
