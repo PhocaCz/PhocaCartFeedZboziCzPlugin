@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <form>
 	<fieldset>
-
-	<field name="EXTRA_MESSAGE{1}" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_1_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_1_DESC"/>
-
+		<field name="item_published" type="radio" class="btn-group btn-group-yesno" default="1" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_PUBLISHED_FEED_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_PUBLISHED_FEED_DESC" >
+			<option value="1">PLG_PCF_ZBOZI_CZ_PUBLISHED</option>
+			<option value="0">PLG_PCF_ZBOZI_CZ_UNPUBLISHED</option>
+		</field>
+		<field name="EXTRA_MESSAGE{1}" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_1_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_1_DESC"/>
 		<field name="FREE_GIFT_TEXT" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_FREE_GIFT_TEXT_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_FREE_GIFT_TEXT_DESC"/>
-		
 		<field name="EXTRA_MESSAGE{2}" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_2_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_2_DESC"/>
-
-
-
-
+		<field name="CATEGORYTEXT" default="" size="10" type="textarea" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CATEGORYTEXT_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CATEGORYTEXT_DESC"/>
 	</fieldset>
 </form>

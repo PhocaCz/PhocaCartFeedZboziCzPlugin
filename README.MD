@@ -2,7 +2,7 @@
 
 
 
-![Phoca Cart Feed Zbozi.cz Plugin](https://github.com/PhocaCz/PhocaCartFeedZboziCzPlugin/blob/master/zbozi_cz.png)
+![Phoca Cart Feed Zbozi.cz Plugin](https://github.com/PhocaCz/PhocaCartFeedZboziCzPlugin/blob/master/zbozi_cz.png?raw=true)
 
 # Phoca Cart Feed Zbozi.cz Plugin
 
@@ -56,7 +56,7 @@ Phoca Cart Feed - Zbozi.cz plugin - XML feed plugin for Phoca Cart component. Ex
 
 ## Version
 
-3.5.4
+3.5.5
 
 
 
