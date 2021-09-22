@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <form>
 	<fieldset>
-		<field name="pcf_param_published" type="radio" class="btn-group btn-group-yesno" default="1" label="PLG_PCF_ZBOZI_CZ_FIELD_PCF_PARAM_PUBLISHED_FEED_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_PCF_PARAM_PUBLISHED_FEED_DESC" >
-			<option value="1">PLG_PCF_ZBOZI_CZ_PUBLISHED</option>
-			<option value="0">PLG_PCF_ZBOZI_CZ_UNPUBLISHED</option>
-		</field>		
-
-		<field name="EXTRA_MESSAGE{1}" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_1_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_1_DESC"/>
+		<field name="VISIBILITY" type="radio" class="btn-group btn-group-yesno" default="1" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_PUBLISHED_FEED_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_PUBLISHED_FEED_DESC" >
+			<option value="1">PLG_PCF_ZBOZI_CZ_FIELD_ITEM_PUBLISHED</option>
+			<option value="0">PLG_PCF_ZBOZI_CZ_FIELD_ITEM_UNPUBLISHED</option>
+		</field>
+        <field name="PRODUCTNAME" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_PRODUCTNAME_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_PRODUCTNAME_DESC"/>
+        <field name="CUSTOM_LABEL_0" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CUSTOM_LABEL_0_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CUSTOM_LABEL_0_DESC"/>
+        <field name="CUSTOM_LABEL_1" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CUSTOM_LABEL_1_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CUSTOM_LABEL_1_DESC"/>
+        <field name="CUSTOM_LABEL_3" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CUSTOM_LABEL_3_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CUSTOM_LABEL_3_DESC"/>        
+        <field name="MAX_CPC" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_MAX_CPC_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_MAX_CPC_DESC"/>
+        <field name="MAX_CPC_SEARCH" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_MAX_CPC_SEARCH_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_MAX_CPC_SEARCH_DESC"/>
+		<field name="EXTRA_MESSAGE{1}" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_EXTRA_MESSAGE_1_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_EXTRA_MESSAGE_1_DESC"/>
 		<field name="FREE_GIFT_TEXT" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_FREE_GIFT_TEXT_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_FREE_GIFT_TEXT_DESC"/>
-		<field name="EXTRA_MESSAGE{2}" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_2_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_EXTRA_MESSAGE_2_DESC"/>
+		<field name="EXTRA_MESSAGE{2}" default="" size="10" type="text" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_EXTRA_MESSAGE_2_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_EXTRA_MESSAGE_2_DESC"/>
 		<field name="CATEGORYTEXT" default="" size="10" type="textarea" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CATEGORYTEXT_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CATEGORYTEXT_DESC"/>
 	</fieldset>
 </form>
