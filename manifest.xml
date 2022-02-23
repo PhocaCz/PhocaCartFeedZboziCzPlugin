@@ -16,7 +16,27 @@
 		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
 		<maintainerurl>https://www.phoca.cz/</maintainerurl>
 		<section>Updates</section>
-		<targetplatform name="joomla" version="3.9"/>
+		<targetplatform name="joomla" version="3.([89]|10)"/>
+		<client>site</client>
+	</update>
+	<update>
+		<name><![CDATA[ Phoca Cart Feed Zbozi.cz Plugin ]]></name>
+		<description><![CDATA[ Phoca Cart Feed - Zbozi.cz plugin - XML feed plugin for Phoca Cart component. Extends XML Feed with new Zbozi.cz elements. ]]></description>
+		<element>zbozi_cz</element>
+		<folder>pcf</folder>
+		<type>plugin</type>
+		<version>4.0.0</version>
+		<infourl title="Phoca Cart Feed Zbozi.cz Plugin 4.0.0">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartFeedZboziCzPlugin/releases/download/4.0.0/plg_pcf_zbozi_cz_v4.0.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="4.[0]"/>
 		<client>site</client>
 	</update>
 </updates>

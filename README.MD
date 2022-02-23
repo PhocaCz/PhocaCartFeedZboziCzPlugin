@@ -54,13 +54,13 @@ Phoca Cart Feed - Zbozi.cz plugin - XML feed plugin for Phoca Cart component. Ex
 
 
 
-
-
-
-
-## Version
+## Version (Joomla! 3.x)
 
 3.5.7
+
+## Version (Joomla! 4.x)
+
+4.0.0
 
 
 
