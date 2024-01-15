@@ -8,10 +8,11 @@
  */
 
 use Joomla\CMS\Form\Form;
+use Joomla\CMS\Plugin\CMSPlugin;
 
 defined('_JEXEC') or die;
 
-class plgPCFZbozi_cz extends JPlugin
+class plgPCFZbozi_cz extends CMSPlugin
 {
 	function __construct(& $subject, $config) {
 
