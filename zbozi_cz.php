@@ -7,23 +7,23 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
  */
 
-defined('_JEXEC') or die; 
-jimport( 'joomla.plugin.plugin' );
-jimport( 'joomla.filesystem.file');
-jimport( 'joomla.html.parameter' );
-//jimport('joomla.log.log');
-//JLog::addLogger( array('text_file' => 'com_phocacart_error_log.php'), JLog::ALL, array('com_phocacart'));
-//phocacartimport('phocacart.utils.log');
+use Joomla\CMS\Form\Form;
 
-JLoader::registerPrefix('Phocacart', JPATH_ADMINISTRATOR . '/components/com_phocacart/libraries/phocacart');
+defined('_JEXEC') or die;
 
 class plgPCFZbozi_cz extends JPlugin
 {
 	function __construct(& $subject, $config) {
-	
+
 		parent :: __construct($subject, $config);
 		$this->loadLanguage();
 	}
-	
+
+	public function onPCFBatchForm(string $context, Form $form) {
+        if ($context !== 'com_phocacart.phocacartitem') {
+            return;
+        }
+
+		$form->loadFile(__DIR__ . '/models/forms/batch.xml');
+	}
 }
-?>
