@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<form>
-	<fieldset>
-		<field name="CATEGORYTEXT" default="" size="10" type="textarea" label="PLG_PCF_ZBOZI_CZ_FIELD_CATEGORY_CATEGORYTEXT_LABEL" description="PLG_PCF_ZBOZI_CZ_FIELD_CATEGORY_CATEGORYTEXT_DESC"/>
-	</fieldset>
-</form>
