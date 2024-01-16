@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="pcf" method="upgrade" version="5.0">
+	<name>plg_pcf_zbozi_cz</name>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>16/01/2024</creationDate>
+	<authorEmail></authorEmail>
+	<authorUrl>https://www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>5.0.0</version>
+	<description>PLG_PCF_ZBOZI_CZ_DESCRIPTION</description>
+	<projectName>PhocaCartFeedZboziCzPlugin</projectName>
+
+	<files>
+		<folder>models</folder>
+		<filename plugin="zbozi_cz">index.html</filename>
+		<filename plugin="zbozi_cz">zbozi_cz.php</filename>
+		<filename plugin="zbozi_cz">manifest.xml</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_pcf_zbozi_cz.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_pcf_zbozi_cz.sys.ini</language>
+	</languages>
+
+	<administration>
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.plg_pcf_zbozi_cz.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_pcf_zbozi_cz.sys.ini</language>
+		</languages>
+	</administration>
+	<form>
+	<fields name="params" addfieldpath="/administrator/components/com_phocacart/models/fields">
+	<fieldset name="feed" addpath="/administrator/components/com_phocacart/models/fields" group="pcf">
+
+	</fieldset>
+	</fields>
+
+</form>
+	
+
+	<updateservers>
+		<server type="extension" name="PLG_PCF_ZBOZI_CZ" priority="1"><![CDATA[https://raw.githubusercontent.com/PhocaCz/PhocaCartFeedZboziCzPlugin/master/manifest.xml]]></server>
+	</updateservers>
+</extension>

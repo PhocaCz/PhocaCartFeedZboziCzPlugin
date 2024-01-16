@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="batch">
+		<fields name="pcf">
+			<fields name="zbozi_cz">
+				<fieldset name="basic">
+					<field name="_pcf_zbozicz_options" type="list" filter="unset" class="form-select-color-state" label="PLG_PCF_ZBOZI_CZ_BATCH">
+						<option value="">COM_PHOCACART_BATCH_NOCHANGE</option>
+						<option value="1">COM_PHOCACART_BATCH_CHANGE</option>
+					</field>
+				</fieldset>
+
+				<fieldset name="params">
+					<field name="_pcf_zbozicz_heading" type="note" showon="_pcf_zbozicz_options:1" class="bg-primary text-white p-2 fw-bold w-100" description="PLG_PCF_ZBOZI_CZ_BATCH_HEADING" />
+
+					<field name="VISIBILITY" type="list" showon="_pcf_zbozicz_options:1" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_PUBLISHED_FEED_LABEL">
+						<option value="">COM_PHOCACART_BATCH_NOCHANGE</option>
+						<option value="0">PLG_PCF_ZBOZI_CZ_FIELD_ITEM_UNPUBLISHED</option>
+						<option value="1">PLG_PCF_ZBOZI_CZ_FIELD_ITEM_PUBLISHED</option>
+					</field>
+
+					<field name="CUSTOM_LABEL_0" type="text" showon="_pcf_zbozicz_options:1" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CUSTOM_LABEL_0_LABEL" />
+
+					<field name="CUSTOM_LABEL_1" type="text" showon="_pcf_zbozicz_options:1" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CUSTOM_LABEL_1_LABEL" />
+
+					<field name="CUSTOM_LABEL_3" type="text" showon="_pcf_zbozicz_options:1" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CUSTOM_LABEL_3_LABEL" />
+
+					<field name="MAX_CPC" type="text" showon="_pcf_zbozicz_options:1" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_MAX_CPC_LABEL" />
+
+					<field name="MAX_CPC_SEARCH" type="text" showon="_pcf_zbozicz_options:1" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_MAX_CPC_SEARCH_LABEL" />
+
+					<field name="EXTRA_MESSAGE{1}" type="text" showon="_pcf_zbozicz_options:1" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_EXTRA_MESSAGE_1_LABEL" />
+
+					<field name="FREE_GIFT_TEXT" type="text" showon="_pcf_zbozicz_options:1" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_FREE_GIFT_TEXT_LABEL" />
+
+					<field name="EXTRA_MESSAGE{2}" type="text" showon="_pcf_zbozicz_options:1" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_EXTRA_MESSAGE_2_LABEL" />
+
+					<field name="CATEGORYTEXT" type="textarea" showon="_pcf_zbozicz_options:1" label="PLG_PCF_ZBOZI_CZ_FIELD_ITEM_CATEGORYTEXT_LABEL" />
+				</fieldset>
+			</fields>
+		</fields>
+	</fields>
+</form>
