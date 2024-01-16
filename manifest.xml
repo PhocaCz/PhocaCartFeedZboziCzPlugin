@@ -51,7 +51,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaCartFeedZboziCzPlugin/releases/download/5.0.0/plg_pcf_zbozi_cz_v5.0.0.zip</downloadurl>
 		</downloads>
-		<sha512>d925715e6c6648db802d948e9c1b98b6a927c11c27b7fc049cd6c6880afd2700cec6e5200c4f031260734a95740c37c7e619924eb4ef1195c19adc3821836b6d</sha512>
+		<sha512>96ecc1fa0736246b8bdf84cb2c736380ebe004f10dc355e4bc79ed54117da7c2b7cd370ab46c4b07468231ee43f806efc2b9e6ea79a27279c577e81543000f1e</sha512>
 		<tags>
 			<tag>stable</tag>
 		</tags>
